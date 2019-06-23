@@ -14,16 +14,16 @@ bakiye = 1000 # Bakiyemiz 1000 lira olsun.
 
 while True:
     islem = input("İşlem seçiniz: ")
-    if(islem == "0"):
+    if(islem == 0):
         print("Hesapdan çıkılıyor...")
         t.sleep(1)
         print("Yine bekleriz....")
         break
-    elif(islem == "1"):
+    elif(islem == 1):
         print("Bakiyeniz sorgulanıyor...")
         t.sleep(1)
         print("Bakiyeniz: {}".format(bakiye))
-    elif(islem == "2"):
+    elif(islem == 2):
         miktar = int(input("Miktar giriniz: "))
         if(miktar > 3000):
             print("3000 den fazla para ekleyemezsiniz...")
@@ -31,7 +31,7 @@ while True:
         t.sleep(1)
         bakiye += miktar
         print("Paranız eklendi: {}".format(bakiye))
-    elif (islem == "3"):
+    elif (islem == 3):
         miktar = int(input("Miktar giriniz: "))
         if(bakiye - miktar < 0):
             print("Bakiye sınırını aştınız!")
