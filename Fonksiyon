@@ -1,12 +1,13 @@
+################ Bilgileri Gösterme ######################
+##########################################################
+
 def bilgiler(ad="Bilgi yok",soyad="Bilgi yok",maas = 3000):
     print("Ad:",ad,"Soyad:",soyad,"maas:",maas)
 bilgiler("Eren","Yarar")
 
-output-> 
-
-Bilgileri Gösterme
-
-###########################################################
+##########################################################
+###########  Fonksiyonlar ile İç içe çarpım  #############      
+##########################################################
 
 def uclecarp(a):
     print("1.fonksiyon çalıştı")
@@ -23,11 +24,7 @@ def besilecikar(a):
 sayi = int(input("Sayı: "))
 print(uclecarp(ikiyletopla(besilecikar(sayi))))
 
-output-> 
 
-Fonksiyonlar ile İç içe çarpım
-
-###########################################################
 
 
 
