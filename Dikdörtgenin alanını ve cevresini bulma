@@ -1,0 +1,9 @@
+### Dikdörtgenin alanını ve cevresini bulma ###
+
+kisa_kenar = int(input("Kısa kenar: "))
+uzun_kenar = int(input("Uzun kenar: "))
+
+cevre = (kisa_kenar * 2) + (uzun_kenar * 2)
+alan = (kisa_kenar * uzun_kenar)
+
+print("Dikdörtgenin Alanı: {} - Dikdörtgenin Çevresi: {}".format(alan,cevre))
