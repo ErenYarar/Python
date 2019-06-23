@@ -1,0 +1,10 @@
+islem = int(input("islem secin: "))
+
+if(islem == 1):
+    print("1.islemi sectiniz...")
+elif(islem == 2):
+    print("2.islemi sectiniz...")
+elif(islem == 3):
+    print("3.islemi sectiniz...")
+else:
+    print("Gecersiz islem")
